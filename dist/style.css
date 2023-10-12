@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.jpg") !important ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    
+
+}
+
+#content {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    }
+   
+h1 {
+    color: #ff5733;
+    justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 41px;
+  font-family: 'Original Surfer', sans-serif;
+}
+
+h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 83px;
+  font-size: 79px;
+  /* height: 11px; */
+  font-family: 'Kelly Slab', sans-serif;
+  color:burlywood;
+  text-shadow: 0px 0px 20px #ff9000;
+
+}
+
+ h3{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 140px;
+  font-size: 79px;
+  font-family: 'Hi Melody', sans-serif;
+  height: 0px;
+  text-shadow: 0px 0px 20px whitesmoke;
+} 
+
+img {
+  max-width: 30%;
+  height: 56vh;
+  margin-left: 479px;
+  border-radius: 58px;
+  box-shadow: 6px 9px 11px;
+}
+
+p{
+    justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 22px;
+  height: 0px;
+  font-family: 'Original Surfer', sans-serif;
+  color: blanchedalmond;
+  text-shadow: 0px 0px 20px #c5b197;
+
+}
+
+button{
+  height: 60px;
+  width: 155px;
+  margin-left: 601px;
+  margin-top: -49px;
+  background-color: rgb(114, 114, 192);
+  border-radius: 12px;
+  border: none;
+
+}
+
+.button1{
+  position: relative;
+  top: -345px;
+  height: 40px;
+  width: 84px;
+  right: -541px;
+  cursor: pointer;
+  border: none;
+  text-shadow: 0px 0px 20px #ff9000;
+  box-shadow: 0px 0px 15px #f2f0ee;
+}
+.button1:active {
+  transform: translateY(4px);
+}
+.button3{
+  position: relative;
+  top: -334px;
+  right: -645px;
+  height: 38px;
+  width: 84px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 15px #f2f0ee;
+}
+.button3:active {
+  transform: translateY(4px);
+}
+
+
+#goBackButton{
+   height: 42px;
+  width: 85px;
+  margin-left: 601px;
+  margin-top: 14px;
+  position: fixed;
+  left: -566px;
+  box-shadow: 5px 2px 7px;
+  cursor: pointer;
+  border: none;
+  
+}
+#goBackButton:active {
+  transform: translateY(4px);
+}
+#orderNow{
+  width: 191px;
+  position: relative;
+  top: 3pc;
+  right: 14px;
+  font-size: 20px;
+  border-radius: 6px;
+  box-shadow: 10px 9px 18px;
+  cursor: pointer;
+  border: none;
+
+}
+#orderNow:active {
+  transform: translateY(4px);
+}
+.button9{
+  height: 60px;
+  width: 155px;
+  margin-left: 601px;
+  margin-top: -49px;
+  font-size: 31px;
+  background-color: #ff9c1b;
+  border-radius: 10px;
+  box-shadow: 10px 9px 18px;
+  cursor: pointer;
+  border: none;
+
+}
+.button9:active {
+  transform: translateY(4px);
+}
